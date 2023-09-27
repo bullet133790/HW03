@@ -41,13 +41,13 @@ public class Homework3 {
         return word.charAt(0);
     }
 //3
-    public static char getLastChar(String word3) {
-        return word3.charAt(word3.length() - 1);
+    public static char getLastChar(String word) {
+        return word.charAt(word.length() - 1);
     }
 
 //4
-    public static String swapFirstAndLastCharacters (String word4){
-            return word4.charAt(word4.length() - 1) + word4.substring(1, word4.length() - 1) + word4.charAt(0);
+    public static String swapFirstAndLastCharacters (String word){
+            return word.charAt(word.length() - 1) + word.substring(1, word.length() - 1) + word.charAt(0);
 
     }
 
